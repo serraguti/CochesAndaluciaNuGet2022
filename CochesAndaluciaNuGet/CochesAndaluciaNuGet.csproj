@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>CochesAndaluciaPGS</PackageId>
+    <Authors>Paco Garcia Serrano</Authors>
+    <Company>Real Madrid</Company>
+    <Product>CochesAndaluciaNuGet</Product>
+    <Description>Listado de coches del aula EOI de super MARTES</Description>
+    <PackageIcon>spidey.jpg</PackageIcon>
+    <PackageIconUrl />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\spidey.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
